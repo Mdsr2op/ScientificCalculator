@@ -1,1 +1,9 @@
 c:\users\mdsr\onedrive\download\documents\visual studio 2012\Projects\ScientificCalculator\ScientificCalculator\bin\Debug\ScientificCalculator.exe.config
+c:\users\mdsr\onedrive\download\documents\visual studio 2012\Projects\ScientificCalculator\ScientificCalculator\bin\Debug\ScientificCalculator.exe
+c:\users\mdsr\onedrive\download\documents\visual studio 2012\Projects\ScientificCalculator\ScientificCalculator\bin\Debug\ScientificCalculator.pdb
+c:\users\mdsr\onedrive\download\documents\visual studio 2012\Projects\ScientificCalculator\ScientificCalculator\obj\Debug\ScientificCalculator.csprojResolveAssemblyReference.cache
+c:\users\mdsr\onedrive\download\documents\visual studio 2012\Projects\ScientificCalculator\ScientificCalculator\obj\Debug\ScientificCalculator.Calculator.resources
+c:\users\mdsr\onedrive\download\documents\visual studio 2012\Projects\ScientificCalculator\ScientificCalculator\obj\Debug\ScientificCalculator.Properties.Resources.resources
+c:\users\mdsr\onedrive\download\documents\visual studio 2012\Projects\ScientificCalculator\ScientificCalculator\obj\Debug\ScientificCalculator.csproj.GenerateResource.Cache
+c:\users\mdsr\onedrive\download\documents\visual studio 2012\Projects\ScientificCalculator\ScientificCalculator\obj\Debug\ScientificCalculator.exe
+c:\users\mdsr\onedrive\download\documents\visual studio 2012\Projects\ScientificCalculator\ScientificCalculator\obj\Debug\ScientificCalculator.pdb

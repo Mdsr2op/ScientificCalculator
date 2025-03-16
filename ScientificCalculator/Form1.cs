@@ -1,20 +1,66 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ScientificCalculator
 {
-    public partial class Form1 : Form
+    public partial class Calculator : Form
     {
-        public Form1()
+        public Calculator()
         {
             InitializeComponent();
+        }
+
+        private void Calculator_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void Number_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void Operator_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnEquals_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnSqrt_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnLog_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnSin_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnCos_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnTan_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnFactorial_Click(object sender, EventArgs e)
+        {
+        }
+
+        private long Factorial(int n)
+        {
+            return 0;
         }
     }
 }
