@@ -94,31 +94,84 @@ namespace ScientificCalculator
 
         private void btnSqrt_Click(object sender, EventArgs e)
         {
+            double num = double.Parse(txtDisplay.Text);
+            if (num < 0)
+            {
+                MessageBox.Show("Invalid input for square root.");
+            }
+            else
+            {
+                txtDisplay.Text = Math.Sqrt(num).ToString();
+            }
+            isOperationPerformed = true;
         }
 
         private void btnLog_Click(object sender, EventArgs e)
         {
+            double num = double.Parse(txtDisplay.Text);
+            if (num <= 0)
+            {
+                MessageBox.Show("Logarithm is undefined for zero or negative numbers.");
+            }
+            else
+            {
+                txtDisplay.Text = Math.Log10(num).ToString();
+            }
+            isOperationPerformed = true;
         }
 
         private void btnSin_Click(object sender, EventArgs e)
         {
+            double num = double.Parse(txtDisplay.Text);
+            double radians = num * Math.PI / 180;
+            txtDisplay.Text = Math.Sin(radians).ToString();
+            isOperationPerformed = true;
         }
 
         private void btnCos_Click(object sender, EventArgs e)
         {
+            double num = double.Parse(txtDisplay.Text);
+            double radians = num * Math.PI / 180;
+            txtDisplay.Text = Math.Cos(radians).ToString();
+            isOperationPerformed = true;
         }
 
         private void btnTan_Click(object sender, EventArgs e)
         {
+            double num = double.Parse(txtDisplay.Text);
+            double radians = num * Math.PI / 180;
+            txtDisplay.Text = Math.Tan(radians).ToString();
+            isOperationPerformed = true;
         }
 
         private void btnFactorial_Click(object sender, EventArgs e)
         {
+            int num;
+            if (int.TryParse(txtDisplay.Text, out num))
+            {
+                if (num < 0)
+                {
+                    MessageBox.Show("Factorial is not defined for negative numbers.");
+                }
+                else
+                {
+                    txtDisplay.Text = Factorial(num).ToString();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Invalid input for factorial. Enter an integer.");
+            }
+            isOperationPerformed = true;
+
         }
 
         private long Factorial(int n)
         {
-            return 0;
+            if (n <= 1)
+                return 1;
+            else
+                return n * Factorial(n - 1);
         }
     }
 }
